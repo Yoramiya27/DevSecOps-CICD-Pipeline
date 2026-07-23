@@ -28,3 +28,13 @@ jobs:
 
       - name: Secrete Scan with GitLeaks
         uses: gitleaks/gitleaks-action@v2
+
+      - name: Build Docker Image
+        run: docker build -t devsecops-app .
+
+      - name: Run Trivy Vulnerability Scanner
+        uses: aquasecurity/trivy-action@master
+        with:
+          image-ref: 'devsecops-app'
+          format: 'table'
+          exit-code: '0'
