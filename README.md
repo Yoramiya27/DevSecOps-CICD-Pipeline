@@ -1,11 +1,12 @@
 # DevSecOps CI/CD Pipeline with Docker, GitHub Actions, and AWS
 
-## About This Project
 
-This project is a hands-on implementation of a **DevSecOps workflow** where I built, secured, and deployed a containerized Flask application.
-
+INTERN ID: CITS7572
+INTERN NAME : JOEL SUJIT
+NO OF WEEKS: 4 WEEKS
+PROJECT NAME: DEVSECOPOS CI/CD PIPELINE
+PROJECT SCOPE: This project is a hands-on implementation of a **DevSecOps workflow** where I built, secured, and deployed a containerized Flask application.
 The main goal was to understand how modern software teams automate application delivery while integrating security checks throughout the development process.
-
 During this project, I worked with Git, Docker, GitHub Actions, security scanning tools, and AWS EC2 to create an automated pipeline from code submission to deployment.
 
 ---
