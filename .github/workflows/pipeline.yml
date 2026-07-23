@@ -25,3 +25,6 @@ jobs:
       - name: Test Application
         run: |
           python -m py_compile app.py
+
+      -name: Secrete Scan with GitLeaks
+       uses: gitleaks/gitleaks-action@v2    
